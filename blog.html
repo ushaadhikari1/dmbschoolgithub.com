@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <title>School Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,700&display=swap" rel="stylesheet"> 
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+ <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Programs </h1>
+</section>
+
+<!----- blog page content ------>
+
+<section class="blog-content">
+
+    <div class="blog-left">
+<img src="images/certificate1.jpg">
+<h2>Our Certificate & Programs</h2>
+<P>
+    Many of today’s students are pursuing academic certificates. Schools around the world offer this type of program, allowing students to specialize in a specific subject area. In order to receive the certificate, certain courses and an exam may be required.
+
+This program is designed for students interested in becoming professional teachers.<P> Many of the programs emphasize teaching English as a second language. In addition, some programs focus on early childhood education. During classes, students can acquire special skills to help them become competent teachers and administrators. Most of the courses are available online, allowing students to work at their own pace. The average program lasts one year, and there are schools across the world that offers this unique certification.
+
+Many people greatly benefit from receiving an academic certificate. This type of program is an appealing alternative to graduate studies, and it can help individuals to fast track their schooling and enter the workforce. Even more, the classes are particularly helpful at preparing students to work in classroom settings.</P>
+
+<p>There are several teaching certification programs available, and each one charges a different fee for tuition. Most students feel this cost is a valuable investment into their future careers. For more information about the enrollment fees, check with the specific school you want to attend.</p>
+
+<p>After receiving a certificate in teaching, most students become teachers. Scholars who specialize in teaching English as a second language usually become English teachers. These individuals often have opportunities to travel and work with different cultures. Graduates with the right qualifications can also pursue work at different schools around the world.
+
+If you want to learn more about the teaching certificate programs available, it is best to look online. Search for your program below and contact directly the admission office of the school of your choice by filling in the lead form.
+</P>
+<div class="comment-box">
+    <h3>Leave a comment</h3>
+    <form class="comment-form">
+<input type="text" placeholder="Enter Name">
+<input type="email" placeholder="Enter Email">
+<textarea rows="5" placeholder="Your comment">
+</textarea>
+<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    </form>
+</div>
+
+
+       </div>
+       <div class="blog-right">
+        <h3>Post Categories</h3>
+       <div>
+        <span>Management</span>
+        <span>21</span>
+        </div>
+        <div>
+            <span>Computer Engineering</span>
+            <span>28</span>
+            </div>
+            <div>
+                <span>Law</span>
+                <span>15</span>
+                </div>
+                <div>
+                    <span>Science</span>
+                    <span>34</span>
+                    </div>
+                    <div>
+                        <span>Education</span>
+                        <span>25</span>
+                        </div>
+        </div>
+       </div>
+
+</section>
+
+<!-------Footer----->
+<section class="footer">
+    <div class="footer_div">
+ <h1>ABOUT US</h1>
+<p> Shree Dhambojhi Secondary School was establised in 2014 in Nepalgunj. We studying from 4 to 5 years with positive attitued,<br>
+    <button type="button">Read More</button>
+</p>
+</div>
+    <div class="footer_div">
+ <h1>ABOUT</h1>
+<ul>
+    <li><a href="#">About School</a></li>
+    <li><a href="#">Director Message</a></li>
+    <li><a href="#">Principal Message</a></li>
+    <li><a href="#">Our Motto</a></li>
+</ul>
+ </div>
+    <div class="footer_div">
+    <h1>ACADEMICS</h1>
+    <ul>
+        <li><a href="#">Admission Procedure</a></li>
+        <li><a href="#">Lab Facilities</a></li>
+        <li><a href="#">Sports Corner</a></li>
+        <li><a href="#">Library</a></li>
+        <li><a href="#">Dimensions of school</a></li>
+        <li><a href="#">Transport Facility</a></li>
+        <li><a href="#">Fee Details</a></li>
+    </ul>
+   </div>
+       <div class="footer_div">
+       <h1>SOCIAL LINKS</h1>
+       <div class="social_link">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-linkedin"></i>
+       </div>
+    </div>
+    <div class="under_footer">
+        <div class="footer1"><p>Copyright © All Rights Reserved</p></div>
+    <div class="footer1"> <p>Design by Usha Adhikari</p></div>
+        </div>
+
+</section>
+
+
+<!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+
+            navLinks.style.right ="0px";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+
+        }
+    </script>
+ </body>
+</html>
